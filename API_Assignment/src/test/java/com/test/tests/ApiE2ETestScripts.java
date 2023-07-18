@@ -1,10 +1,13 @@
 package com.test.tests;
 
+import java.util.Properties;
+
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.test.utils.Utils;
 import com.test.models.CreateUserPOJO;
 import com.test.models.CreateUserResponsePOJO;
 
@@ -22,6 +25,7 @@ public class ApiE2ETestScripts {
 	
 	@BeforeClass
 	public static void setUp() {
+		
 		RestAssured.baseURI = "https://dummy.restapiexample.com/api/v1/";
 	}
 	
