@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T17:30:44 MST" name="Default suite" finished-at="2023-07-17T17:30:46 MST" duration-ms="1688">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T17:30:44 MST" name="Default test" finished-at="2023-07-17T17:30:46 MST" duration-ms="1688">
+      <class name="com.test.tests.ApiE2ETestScripts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.tests.ApiE2ETestScripts@67a20f67]" started-at="2023-07-17T17:30:44 MST" name="setUp" finished-at="2023-07-17T17:30:45 MST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase_2()[pri:0, instance:com.test.tests.ApiE2ETestScripts@67a20f67]" started-at="2023-07-17T17:30:45 MST" name="testCase_2" finished-at="2023-07-17T17:30:46 MST" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_2 -->
+      </class> <!-- com.test.tests.ApiE2ETestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
